@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DirectX12">
+      <UniqueIdentifier>{2b1d2d0d-f7d2-4e5b-b39b-2ffff9493415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX12">
+      <UniqueIdentifier>{0f0d0828-1ec7-4c80-ac7c-75033b98d3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ObjectsCode">
+      <UniqueIdentifier>{efb0175c-bd44-42c9-9f14-dae8c9ffd343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ObjectsCode">
+      <UniqueIdentifier>{50cd7045-3bb5-4ec7-88af-9553949b2bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Common">
+      <UniqueIdentifier>{7b6838c1-50d7-4f36-bbe8-8abcee3e6c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Common">
+      <UniqueIdentifier>{a7ed72e4-c574-49e1-ae40-bf1b5c611ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Play">
+      <UniqueIdentifier>{0de01af0-c272-4912-92a0-b40c560b2e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Play">
+      <UniqueIdentifier>{76da9ff5-609b-4a21-b9db-03828977432f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\HitBox">
+      <UniqueIdentifier>{7836ad0e-ee67-4416-b1f6-48cca2ddaa3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\HitBox">
+      <UniqueIdentifier>{3441ac50-693c-4fe7-8258-4f7432fdf4dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\App.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\AssimpLoader.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\ConstantBuffer.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\DescriptorHeap.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\Engine.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\FileUtil.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\IndexBuffer.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\PipelineState.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\RootSignature.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\SharedStruct.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\Texture2D.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectX12\VertexBuffer.cpp">
+      <Filter>ソース ファイル\DirectX12</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectsCode\GameObject.cpp">
+      <Filter>ソース ファイル\ObjectsCode</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectsCode\Object2DResource.cpp">
+      <Filter>ソース ファイル\ObjectsCode</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectsCode\MeshResource.cpp">
+      <Filter>ソース ファイル\ObjectsCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\File.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\KeyInput.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MyMath.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Scene.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Sequence.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\ExplosionGame.cpp">
+      <Filter>ソース ファイル\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\StaticCamera.cpp">
+      <Filter>ソース ファイル\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TestCamera.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Robot.cpp">
+      <Filter>ソース ファイル\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Random.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Play\Player.cpp">
+      <Filter>ソース ファイル\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBox\SphereHitBox.cpp">
+      <Filter>ソース ファイル\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBox\Collision.cpp">
+      <Filter>ソース ファイル\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBox\HitBox.cpp">
+      <Filter>ソース ファイル\HitBox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DirectX12\App.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\AssimpLoader.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\ComPtr.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\ConstantBuffer.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\DescriptorHeap.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\Engine.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\FileUtil.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\IndexBuffer.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\PipelineState.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\RootSignature.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\SharedStruct.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\Texture2D.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX12\VertexBuffer.h">
+      <Filter>ヘッダー ファイル\DirectX12</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsCode\GameObject.h">
+      <Filter>ヘッダー ファイル\ObjectsCode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsCode\Object2DResource.h">
+      <Filter>ヘッダー ファイル\ObjectsCode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsCode\MeshResource.h">
+      <Filter>ヘッダー ファイル\ObjectsCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Camera.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\File.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\KeyInput.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MyMath.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Scene.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Sequence.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsCode\ObjectResource.h">
+      <Filter>ヘッダー ファイル\ObjectsCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\ExplosionGame.h">
+      <Filter>ヘッダー ファイル\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\StaticCamera.h">
+      <Filter>ヘッダー ファイル\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\TestCamera.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Robot.h">
+      <Filter>ヘッダー ファイル\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Random.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Play\Player.h">
+      <Filter>ヘッダー ファイル\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox\HitBox.h">
+      <Filter>ヘッダー ファイル\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox\SphereHitBox.h">
+      <Filter>ヘッダー ファイル\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox\Collision.h">
+      <Filter>ヘッダー ファイル\HitBox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\SimplePS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\SimpleVS.hlsl">
+      <Filter>リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

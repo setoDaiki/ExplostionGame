@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{86facd2b-0a25-4828-a58e-1bd7c9c4c08d}</ProjectGuid>
+    <RootNamespace>ExplostionGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Explosion\DirectX12;$(DXTEX_DIR);C:\Explosion\ExplostionGame\ObjectsCode;C:\Explosion\ExplostionGame\Common;C:\Explosion\ExplostionGame\Play;C:\Explosion\ExplostionGame\HitBox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DirectXTex-jul2022\DirectXTex-jul2022\DirectXTex\Bin\Desktop_2019\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Explosion\DirectX12;$(DXTEX_DIR);C:\Explosion\ExplostionGame\ObjectsCode;C:\Explosion\ExplostionGame\Common;C:\Explosion\ExplostionGame\Play;C:\Explosion\ExplostionGame\HitBox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DirectXTex-jul2022\DirectXTex-jul2022\DirectXTex\Bin\Desktop_2019\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Explosion\DirectX12;$(DXTEX_DIR);C:\Explosion\ExplostionGame\ObjectsCode;C:\Explosion\ExplostionGame\Common;C:\Explosion\ExplostionGame\Play;C:\Explosion\ExplostionGame\HitBox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DirectXTex-jul2022\DirectXTex-jul2022\DirectXTex\Bin\Desktop_2019\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Explosion\DirectX12;$(DXTEX_DIR);C:\Explosion\ExplostionGame\ObjectsCode;C:\Explosion\ExplostionGame\Common;C:\Explosion\ExplostionGame\Play;C:\Explosion\ExplostionGame\HitBox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DirectXTex-jul2022\DirectXTex-jul2022\DirectXTex\Bin\Desktop_2019\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\DirectX12\App.cpp" />
+    <ClCompile Include="..\DirectX12\AssimpLoader.cpp" />
+    <ClCompile Include="..\DirectX12\ConstantBuffer.cpp" />
+    <ClCompile Include="..\DirectX12\DescriptorHeap.cpp" />
+    <ClCompile Include="..\DirectX12\Engine.cpp" />
+    <ClCompile Include="..\DirectX12\FileUtil.cpp" />
+    <ClCompile Include="..\DirectX12\IndexBuffer.cpp" />
+    <ClCompile Include="..\DirectX12\PipelineState.cpp" />
+    <ClCompile Include="..\DirectX12\RootSignature.cpp" />
+    <ClCompile Include="..\DirectX12\SharedStruct.cpp" />
+    <ClCompile Include="..\DirectX12\Texture2D.cpp" />
+    <ClCompile Include="..\DirectX12\VertexBuffer.cpp" />
+    <ClCompile Include="Common\File.cpp" />
+    <ClCompile Include="Common\KeyInput.cpp" />
+    <ClCompile Include="Common\MyMath.cpp" />
+    <ClCompile Include="Common\Random.cpp" />
+    <ClCompile Include="Common\Scene.cpp" />
+    <ClCompile Include="Common\Sequence.cpp" />
+    <ClCompile Include="Common\TestCamera.cpp" />
+    <ClCompile Include="HitBox\Collision.cpp" />
+    <ClCompile Include="HitBox\HitBox.cpp" />
+    <ClCompile Include="HitBox\SphereHitBox.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ObjectsCode\GameObject.cpp" />
+    <ClCompile Include="ObjectsCode\MeshResource.cpp" />
+    <ClCompile Include="ObjectsCode\Object2DResource.cpp" />
+    <ClCompile Include="Play\ExplosionGame.cpp" />
+    <ClCompile Include="Play\Player.cpp" />
+    <ClCompile Include="Play\Robot.cpp" />
+    <ClCompile Include="Play\StaticCamera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DirectX12\App.h" />
+    <ClInclude Include="..\DirectX12\AssimpLoader.h" />
+    <ClInclude Include="..\DirectX12\ComPtr.h" />
+    <ClInclude Include="..\DirectX12\ConstantBuffer.h" />
+    <ClInclude Include="..\DirectX12\DescriptorHeap.h" />
+    <ClInclude Include="..\DirectX12\Engine.h" />
+    <ClInclude Include="..\DirectX12\FileUtil.h" />
+    <ClInclude Include="..\DirectX12\IndexBuffer.h" />
+    <ClInclude Include="..\DirectX12\PipelineState.h" />
+    <ClInclude Include="..\DirectX12\RootSignature.h" />
+    <ClInclude Include="..\DirectX12\SharedStruct.h" />
+    <ClInclude Include="..\DirectX12\Texture2D.h" />
+    <ClInclude Include="..\DirectX12\VertexBuffer.h" />
+    <ClInclude Include="Common\Camera.h" />
+    <ClInclude Include="Common\File.h" />
+    <ClInclude Include="Common\KeyInput.h" />
+    <ClInclude Include="Common\MyMath.h" />
+    <ClInclude Include="Common\Random.h" />
+    <ClInclude Include="Common\Scene.h" />
+    <ClInclude Include="Common\Sequence.h" />
+    <ClInclude Include="Common\TestCamera.h" />
+    <ClInclude Include="HitBox\Collision.h" />
+    <ClInclude Include="HitBox\HitBox.h" />
+    <ClInclude Include="HitBox\SphereHitBox.h" />
+    <ClInclude Include="ObjectsCode\GameObject.h" />
+    <ClInclude Include="ObjectsCode\MeshResource.h" />
+    <ClInclude Include="ObjectsCode\Object2DResource.h" />
+    <ClInclude Include="ObjectsCode\ObjectResource.h" />
+    <ClInclude Include="Play\ExplosionGame.h" />
+    <ClInclude Include="Play\Player.h" />
+    <ClInclude Include="Play\Robot.h" />
+    <ClInclude Include="Play\StaticCamera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\SimplePS.hlsl">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="shader\SimpleVS.hlsl">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\Assimp_native_4.1_v142.4.1.0\build\native\Assimp_native_4.1_v142.targets" Condition="Exists('packages\Assimp_native_4.1_v142.4.1.0\build\native\Assimp_native_4.1_v142.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Assimp_native_4.1_v142.4.1.0\build\native\Assimp_native_4.1_v142.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Assimp_native_4.1_v142.4.1.0\build\native\Assimp_native_4.1_v142.targets'))" />
+  </Target>
+</Project>
